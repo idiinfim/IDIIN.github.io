@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #107acc, #142157);
+    background: linear-gradient(to right, #00bfff, #000080);
 
     font-family: 'Poppins', sans-serif, 'montserrat';
 }
@@ -47,7 +47,7 @@ body {
 
 .idiin-menu {
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 0px;
     right: 0;
     display: flex;
@@ -57,15 +57,17 @@ body {
 
 .navbar {
     display: flex;
+    width: 1200px;
 }
 
 .idiin-menu-1 {
-    margin-right: 100px;
+    margin-top: 60px;
+    margin-right: 50px;
     align-items: center;
 }
 
 .idiin-menu-2 {
-    margin-left: 140px;
+    margin-left: 320px;
     display: flex;
     align-items: center;
 }
@@ -75,7 +77,7 @@ body {
 }
 
 .idiin-logo-2 {
-    margin-left: 80px;
+    margin-left: 0px;
     width: 200px;
 
 }
@@ -152,16 +154,17 @@ body {
 }
 
 .slider-txt h1 {
+    margin-bottom: 10px;
     font-size: 'montserrat';
     text-align: center;
-    font-size: 50px;
+    font-size: 38px;
     color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 650;
 }
 
 .slider-txt p {
-    margin-right: 20px;
+    margin-right: 18px;
     font-size: 16px;
     color: #FFFFFF;
     text-align: justify;
@@ -175,10 +178,10 @@ body {
 .btn-1 {
     display: inline-block;
     padding: 10px 35px;
-    border: 2px solid #DB241B;
-    background-color: #DB241B;
+    border: 3px solid #DB241B;
+    background-color: transparent;
     color: #FFFFFF;
-    font-weight: 650PX;
+    font-weight: 950PX;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-right: 20px;
@@ -201,20 +204,19 @@ body {
 }
 
 .header-content {
-
-    background: linear-gradient(to top, transparent, #142157);
+    background: linear-gradient(to top, transparent, #000080);
     border-radius: 10px;
 }
 
 .products {
 
-    background: linear-gradient(to right, transparent, #142157);
+    background: linear-gradient(to right, transparent, #000080);
 }
 
 .tabs {
     display: flex;
     flex-wrap: wrap;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .tabs label {
@@ -257,7 +259,7 @@ body {
     font-size: 'montserrat';
     display: flex;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     margin: 0 10px;
 }
 
@@ -325,7 +327,7 @@ body {
 }
 
 .info {
-    padding: 100px 0px;
+    padding: 60px 0px;
     display: flex;
     align-items: center;
 }
@@ -348,11 +350,11 @@ body {
 .info-txt h2 {
     font-size: 'montserrat';
     text-align: center;
-    font-size: 75px;
+    font-size: 38px;
     color: #FFFFFF;
     font-weight: 650;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .info-txt p {
@@ -364,17 +366,22 @@ body {
 
 .btn-2 {
     display: inline-block;
-    padding: 15px 35px;
-    background-color: #DB241B;
+    padding: 10px 35px;
+    border: 3px solid #DB241B;
+    background-color: transparent;
     color: #FFFFFF;
-    font-weight: 800;
+    font-weight: 950px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    border-radius: 50px;
+    margin-right: 20px;
+    border-radius: 15px;
 }
 
 .btn-2:hover {
-    background-color: #ab1c15;
+    background-color: #DB241B;
 }
+
+
 
 .video-youtube {
     display: flex;
@@ -387,9 +394,9 @@ body {
 .video-youtube h2 {
     width: 100%;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 'montserrat';
-    font-size: 50px;
+    font-size: 40px;
     color: #FFFFFF;
     font-weight: 650;
     text-transform: uppercase;
@@ -401,16 +408,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .videos {
-    width: 100%;
-    height: 350px;
+    width: 88%;
+    height: 250px;
     border-radius: 20px;
 }
 
 .video {
-    background: linear-gradient(to right, #142157, #2898ee);
+    background: linear-gradient(to right, #000080, #00bfff);
 
 
 }
@@ -418,17 +427,18 @@ body {
 
 
 .horario {
-    padding: 100pX 0px;
-    background: linear-gradient(to right, transparent, #142157);
+    padding: 60pX 0px;
+    background: linear-gradient(to right, transparent, #000080);
 }
 
 .horario-info h2 {
     font-size: 'montserrat';
-    font-size: 75px;
+    font-size: 38px;
     color: #FFFFFF;
     font-weight: 650;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+
 }
 
 .horario-txt {
@@ -441,30 +451,31 @@ body {
 }
 
 .txt h4 {
-    font-size: 18px;
+    font-size: 20px;
     color: #FFFFFF;
-    margin-bottom: 30px;
+    margin-bottom: 50x;
 }
 
 .txt p {
     font-size: 18px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .txt1 {
+    margin-top: 0px ;
     color: #FFFFFF;
 }
 
 .txt1 h4 {
-    font-size: 18px;
+    font-size: 20px;
     color: #FFFFFF;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
 .txt1 p {
-    font-size: 18px;
+    font-size: 20px;
 
     margin-bottom: 15px;
 }
@@ -475,12 +486,13 @@ body {
 }
 
 .footer {
-    padding: 100px 0px;
+    padding: 60px 0px;
     display: flex;
     justify-content: space-between;
 }
 
 .links h4 {
+    font-size: 20px;
     color: #FFFFFF;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -488,7 +500,7 @@ body {
 
 .links ul li a {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 5px;
     display: inline-block;
 }
@@ -529,7 +541,7 @@ body {
         top: 100%;
         left: 0;
         right: 0;
-        background: linear-gradient(to right, #107acc, #142157);
+        background: linear-gradient(to right, #00bfff, #000080);
         display: none;
     }
 
@@ -692,11 +704,16 @@ body {
 
     .video {
         text-align: center;
+     
+    }
+    .video-wrapper{
+        margin-bottom: 10px;
     }
 
     .video-youtube .videos {
         width: 330px;
-        height: 200px;
+        height: 180px;
+        border-radius: 10px;
     }
 
 
@@ -711,10 +728,21 @@ body {
         margin-bottom: 15px;
     }
 
+    .horario-info h4 {
+        font-size: 24px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .horario-info p {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
     .horario-txt {
         flex-direction: column;
     }
-
+ 
     .socials {
         justify-content: center;
     }
@@ -724,16 +752,31 @@ body {
     }
 
     .footer {
-        padding: 30px;
+        padding-top: 0;
+        padding-bottom: 0;
         flex-direction: column;
         text-align: center;
     }
+    .idiin-logo-3{
+        display: inline-block;
+        margin-left: 30%;
+        text-align: center;
+    }
+    .links{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 
     .links h4 {
+        font-size: 24px;
         margin: 25px 0px 10px 0px;
+    }
+    .links li{
+        font-size: 20pxS;
     }
 
     .inf {
         flex-direction: column;
     }
 }
+
