@@ -583,11 +583,21 @@ body {
         width: 300px;
         border-radius: 20px;
     }
+    .tabs.container {
+        padding-top: 50px;
+        padding-bottom: 0px;
+
+
+    }
+
+    .swiper.mySwiper-2 {
+        padding-top: 0px;
+    }
 
     .tabs {
         display: flex;
        padding: 10px 10px;
-        padding-bottom: 0px;
+        padding-top: 0px;
         justify-content: space-between;
     }
 
