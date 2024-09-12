@@ -140,10 +140,7 @@ body {
     display: none;
 }
 
-.header-content {
-    padding: 140px 0px;
-    padding-bottom: 50px;
-}
+
 
 .slider {
     display: flex;
@@ -155,7 +152,7 @@ body {
     width: 50%;
 }
 
-.slider-txt h1 {
+.slider-txt h2 {
     margin-bottom: 10px;
     font-size: 'montserrat';
     text-align: center;
@@ -205,10 +202,14 @@ body {
     border-radius: 50px;
 }
 
+.h1 {
+    display: inline;
+}
+
 .header-content {
 
     padding: 60px 180px;
-    padding-top: 140px;
+    padding-top: 110px;
     background: linear-gradient(to bottom, #000080, #00bfff);
 }
 
@@ -429,7 +430,7 @@ body {
 .video {
 
     background: linear-gradient(to right, #000080, #00bfff);
-    padding: 0px 100px;
+    padding: 20px 100px;
 
 
 }
@@ -437,7 +438,8 @@ body {
 
 
 .horario {
-    padding: 60px 100px;
+    padding: 80px 200px;
+
     background: linear-gradient(to bottom, #000080, #00bfff);
 }
 
@@ -554,7 +556,7 @@ body {
         top: 100%;
         left: 0;
         right: 0;
-        background: linear-gradient(to right, #00bfff, #000080);
+        background: linear-gradient(to top, #00bfff, #000080);
         display: none;
     }
 
@@ -566,9 +568,14 @@ body {
         display: initial;
     }
 
+    .h1 {
+        display: inline;
+    }
+
     .header-content {
-        padding: 30px;
-        margin-top: 100px;
+        padding: 40px;
+        padding-top: 30px;
+        margin-top: 60px;
         border-radius: 0;
     }
 
@@ -580,7 +587,7 @@ body {
         margin-left: 0;
         width: 100%;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .slider-txt h1 {
@@ -604,8 +611,10 @@ body {
     }
 
     .slider-img img {
-        margin: 0px;
+        margin: 30px 0;
+        margin-top: 0px;
         width: 300px;
+
         border-radius: 20px;
     }
 
@@ -636,6 +645,7 @@ body {
     }
 
     .product {
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -682,7 +692,7 @@ body {
     }
 
     .info {
-        padding: 30px;
+        padding: 50px 30px;
         flex-direction: column;
     }
 
@@ -704,7 +714,7 @@ body {
     }
 
     .info-txt h2 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .info-txt p {
@@ -734,7 +744,7 @@ body {
 
 
     .horario {
-        padding: 30px;
+        padding: 50px 30px;
         text-align: center;
     }
 
@@ -767,15 +777,15 @@ body {
     }
 
     .footer {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
         flex-direction: column;
         text-align: center;
     }
 
     .idiin-logo-3 {
         display: inline-block;
-        margin-left: 30%;
+        margin-left: 16%;
         text-align: center;
     }
 
