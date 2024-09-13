@@ -562,12 +562,13 @@ body {
 
 
 }
-
 .map {
-    margin: 0px;
+
     filter: invert(92%) contrast(93%);
+    border-radius: 40px;
 
 }
+
 
 .footert {
 
@@ -950,6 +951,12 @@ body {
     .social img {
         margin: 8px 0 0 0;
     }
+    .map {
+
+    filter: invert(92%) contrast(93%);
+    border-radius: 0px;
+
+}
 
     .footer {
         padding-top: 30px;
