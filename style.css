@@ -804,6 +804,7 @@ body {
     }
 
     .product-txt span {
+        text-align: center;
         font-size: 12px;
         line-height: 1.3;
         letter-spacing: 1px;
@@ -829,11 +830,10 @@ body {
     }
 
     .product-img img {
-        display: inline-block;
-
+        display: inline;
         text-align: center;
-        width: 240px;
-        height: 140px;
+        width: 320px;
+        height: 160px;
         border-radius: 20px;
     }
 
@@ -889,6 +889,7 @@ body {
 
     .video {
         text-align: center;
+        padding: 50px 30px;
 
     }
 
@@ -919,14 +920,14 @@ body {
 
     .horario-info h2 {
         font-size: 18px;
-
-        line-height: 1.3;
+        line-height: 0;
         letter-spacing: 1px;
         word-spacing: 0.004cap;
     }
 
     .horario-info h4 {
         font-size: 14px;
+
         line-height: 1.3;
         letter-spacing: 1px;
         word-spacing: 0.004cap;
@@ -967,7 +968,7 @@ body {
 
     .idiin-logo-3 {
         display: inline-block;
-        margin-left: 25%;
+        margin-left: 21%;
         text-align: center;
     }
 
