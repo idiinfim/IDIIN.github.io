@@ -8,7 +8,7 @@ var swiper = new Swiper(".mySwiper-1", {
     },
 
     autoplay: {
-        delay: 7000
+        delay: 6000
     },
 
     pagination: {
