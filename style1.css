@@ -54,7 +54,7 @@ header {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    padding: 3vw;
+    padding: 4vw;
     mix-blend-mode: difference;
     animation: aparecer-texto both;
     animation-timeline: scroll();
@@ -96,6 +96,7 @@ img {
     margin: 10vw 0vw;
     padding: 0 0;
     margin-left: 0;
+    width: 15vw;
     position: fixed;
     top: 0;
     animation: aparecer both;
