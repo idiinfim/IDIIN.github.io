@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+    --bg-color: #ffb18c;
+    --text-color: #333;
+    --dark-color: rgb(255, 255, 255);
+}
+
+body,
+div,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img1/blue.gif");
+
+    height: 100dvh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1 {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: difference;
+
+}
+
+.text-container {
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    font-size: clamp(1rem, 9vw, 12rem);
+    color: var(--text-color);
+    font-weight: 600;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 3vw;
+    mix-blend-mode: difference;
+    animation: aparecer-texto both;
+    animation-timeline: scroll();
+    animation-range-start: cover 20%;
+}
+
+.left-text {
+    color: var(--dark-color);
+}
+
+.right-text {
+    color: var(--dark-color);
+    font-weight: 900;
+}
+
+.botones {
+    text-align: center;
+}
+
+.btn-1 {
+    display: inline-block;
+    border: 4px solid #ffffff;
+    background-color: DB241B;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-size: clamp(1rem, 9vw, 4rem);
+}
+
+.left-text {
+
+    filter: drop-shadow(0px 0px 1px var(--dark-color)) drop-shadow(0px 0px 9px var(--dark-color))
+}
+
+img {
+
+    margin: 10vw 0vw;
+    padding: 0 0;
+    margin-left: 0;
+    position: fixed;
+    top: 0;
+    animation: aparecer both;
+    animation-timeline: scroll();
+    max-height: 100vh;
+    mix-blend-mode: darken;
+
+
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+
+
+        translate: 0 -20%;
+        scale: .7;
+    }
+
+    100% {
+        opacity: 1;
+
+        translate: 0 0;
+        scale: 1;
+    }
+
+}
+
+@keyframes aparecer-texto {
+    0% {
+        opacity: 0;
+
+        translate: 0 20%;
+        scale: 2;
+    }
+
+    100% {
+        opacity: 1;
+
+        translate: 0 0;
+        scale: 1;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    .text-container {
+        justify-content: space-evenly;
+    }
+
+    img {
+        margin-top: 70px;
+        margin-left: 125px;
+        padding-top: 0px;
+
+
+        width: 30%;
+        text-align: center;
+
+
+    }
+
+}
