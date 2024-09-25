@@ -695,6 +695,14 @@ body {
         margin-top: 20px;
         margin-right: 16px;
     }
+     .idiin-menu-1 {
+        display: inline;
+    }
+
+    .flags {
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+    }
 
     .idiin-menu-2 {
         display: none;
