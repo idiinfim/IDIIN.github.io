@@ -96,6 +96,7 @@ img {
     margin: 10vw 0vw;
     padding: 0 0;
     width: 15vw;
+    border-radius: 10px;
     position: fixed;
     top: 0;
     animation: aparecer both;
