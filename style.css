@@ -41,13 +41,31 @@ body {
 }
 
 .idiin-menu-1 {
+    display: inline-flex;
     margin-top: 10px;
-    margin-right: 50px;
+    margin-right: 0px;
     align-items: center;
 }
 
+.flags {
+    width: 75px;
+    display: flex;
+    margin-left: 100PX;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item {
+    width: 30px;
+}
+
+.flags__img {
+    display: block;
+    cursor: pointer;
+}
+
 .idiin-menu-2 {
-    margin-left: 300px;
+    margin-left: 200px;
     display: flex;
     align-items: center;
 }
