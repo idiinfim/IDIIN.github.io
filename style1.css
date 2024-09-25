@@ -143,22 +143,25 @@ img {
 
 }
 
-@media(max-width: 900px) {
+@media screen and (max-width: 900px) {
 
-    .text-container {
-        justify-content: space-evenly;
-    }
+
 
     img {
-        margin-top: 70px;
-        margin-left: 125px;
-        padding-top: 0px;
 
-
-        width: 30%;
-        text-align: center;
-
+        top: 0vw;
+        max-width: 30vw;
+        width: 50vw;
 
     }
 
+    .left-text {
+        font-size: 2.4 rem;
+        padding-left: 13vw;
+    }
+
+    .right-text {
+        font-size: 2.4rem;
+        padding-right: 3vw;
+    }
 }
