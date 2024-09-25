@@ -50,3 +50,25 @@ tabInputs.forEach(function (input) {
         thisSwiper.swiper.update();
     })
 });
+
+const flagsElement = document.getElementById("flags");
+const textsToChange = document.querySelectorAll("[data-section]");
+
+const changeLanguage = async (language) => {
+    const requestJson = await fetch(`languages/${language}.json`); // Uso de comillas invertidas
+    const texts = await requestJson.json();
+
+    for (const textToChange of textsToChange) {
+        const section = textToChange.dataset.section;
+        const value = textToChange.dataset.value;
+        textToChange.innerHTML = texts[section][value];
+    }
+};
+
+flagsElement.addEventListener("click", (e) => {
+    const language = e.target.parentElement.dataset.language; // Obtención del idioma
+    if (language) { // Verifica que se haya encontrado un idioma
+        console.log(language); // Esto muestra el idioma en la consola
+        changeLanguage(language); // Llama a la función para cambiar el idioma
+    }
+});
