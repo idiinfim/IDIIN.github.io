@@ -144,22 +144,24 @@ img {
 
 @media screen and (max-width: 900px) {
 
-
-
     img {
-
-        top: 10vw;
+        padding: 0;
+        margin: 0;
+        padding: auto 0vw;
+        top: 20vw;
         width: 50vw;
 
     }
 
     .left-text {
         font-size: 2.4 rem;
-        padding-left: 13vw;
+        padding-left: 14vw;
+        padding-top: 100vw;
     }
 
     .right-text {
         font-size: 2.4rem;
         padding-right: 3vw;
+        padding-top: 100vw;
     }
 }
