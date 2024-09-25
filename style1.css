@@ -145,6 +145,7 @@ img {
 @media screen and (max-width: 900px) {
 
     img {
+        display: none;
         padding: 0;
         margin: 0;
         padding: auto 0vw;
