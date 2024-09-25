@@ -154,10 +154,11 @@ img {
     }
 
     .left-text {
-        font-size: 2.4 rem;
-        padding-left: 14vw;
+        font-size: 4.4 rem;
+        padding-left: 10vw;
         padding-top: 100vw;
     }
+
 
     .right-text {
         font-size: 2.4rem;
