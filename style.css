@@ -499,6 +499,28 @@ body {
 
     background: linear-gradient(to right, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
     padding: 50px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.iframm {
+    background: linear-gradient(to top, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
+    padding: 50px 40px;
+
+
+}
+
+.ifram {
+    text-align: center;
+}
+
+.ifra {
+    display: inline;
+    margin-left: 20px;
+    border-radius: 10px;
 
 
 }
@@ -969,7 +991,16 @@ body {
         border-radius: 10px;
     }
 
+    .ifra {
+        display: inline;
+        width: 50px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 40px;
+        border-radius: 10px;
 
+
+    }
 
     .horario {
         padding: 60px 30px;
