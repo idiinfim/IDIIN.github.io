@@ -896,6 +896,7 @@ body {
 
         display: center;
         padding: 0px 10px;
+        padding-bottom: 20px;
         justify-content: space-between;
 
     }
@@ -932,7 +933,7 @@ body {
     .product {
 
         background: linear-gradient(to left, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
-        border-radius: 20px;
+
         width: 100%;
         height: 360px;
         padding: 0;
