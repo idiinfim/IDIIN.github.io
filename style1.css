@@ -26,7 +26,7 @@ p {
 body {
     background-image: url("img1/bluee.gif");
 
-    height: 100dvh;
+    height: 160dvh;
     background-position: center;
     background-size: cover;
 
@@ -90,8 +90,9 @@ header {
 }
 
 .left-text {
-    font-weight: 900;
     color: var(--dark-color);
+    font-weight: 900;
+
     mix-blend-mode: darken;
 }
 
