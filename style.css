@@ -610,7 +610,7 @@ body {
 
 .evenimg {
     margin: 0 10px;
-    border-radius: 30px;
+   
     border: 4px solid #ffffff;
     background: linear-gradient(to top, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
 
