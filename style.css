@@ -916,7 +916,7 @@ body {
     }
 
     .products {
-        height: 500px;
+        height: 510px;
         width: 100%;
 
     }
@@ -938,6 +938,7 @@ body {
 
     .product-txt {
         margin: 15px auto;
+         margin-top: 20px;
 
     }
 
