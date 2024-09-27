@@ -568,18 +568,22 @@ body {
         border-radius: 0px;
 
     }
-
-    .footer {
+ .footer {
         padding-top: 30px;
         padding-bottom: 30px;
         flex-direction: column;
         text-align: center;
     }
 
+
+
     .idiin-logo-3 {
-        display: inline-block;
-        margin-left: 16%;
+        display: inline;
+        margin-left: 21vw;
+        width: 140px;
+        height: 70px;
         text-align: center;
+        align-items: center;
     }
 
     .links {
