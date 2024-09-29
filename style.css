@@ -696,7 +696,10 @@ body {
 
     margin-bottom: 4px;
 }
-
+.mappp {
+    background: linear-gradient(to left, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
+    text-align: center;
+}
 .mapp {
     background: linear-gradient(to left, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
 
@@ -1230,7 +1233,13 @@ body {
     .social img {
         margin: 8px 0 0 0;
     }
-
+    .mappp {
+    background: linear-gradient(to left, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
+    text-align: center;
+}
+  .mappp {
+        display: none;
+    }
     .map {
 
 
