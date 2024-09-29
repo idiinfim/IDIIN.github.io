@@ -162,11 +162,30 @@ img {
 
     body {
         background-image: url("img1/fondo-cell-idiin.gif");
-
+        --dark-color: #ffffff;
         height: 100dvh;
         background-position: center;
         background-size: cover;
 
+
+    }
+
+    .text-container {
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        display: flex;
+        font-size: clamp(1rem, 9vw, 12rem);
+        color: var(--text-color);
+        font-weight: 600;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 4vw;
+        mix-blend-mode: difference;
+        animation: aparecer-texto both;
+        animation-timeline: scroll();
+        animation-range-start: cover 20%;
     }
 
     .left-text {
