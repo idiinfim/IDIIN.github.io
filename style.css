@@ -550,15 +550,17 @@ body {
 
 .ifram {
     text-align: center;
+    align-items: center;
+
 }
 
 .ifra {
     display: inline;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 10px;
-
-
 }
+
 
 .ofrecemos {
     height: 320px;
