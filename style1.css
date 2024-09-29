@@ -6,7 +6,7 @@ body {
     font-family: montserrat;
     --bg-color: #ffb18c;
     --text-color: #333;
-    --dark-color: rgb(255, 255, 255);
+    --dark-color: #0a68b1;
 }
 
 body,
@@ -57,7 +57,7 @@ header {
     width: 100%;
     align-items: center;
     padding: 4vw;
-    mix-blend-mode: difference;
+    mix-blend-mode: darken;
     animation: aparecer-texto both;
     animation-timeline: scroll();
     animation-range-start: cover 20%;
@@ -65,6 +65,8 @@ header {
 
 .left-text {
     color: var(--dark-color);
+    font-weight: 900;
+    mix-blend-mode: darken;
 }
 
 .right-text {
@@ -79,21 +81,14 @@ header {
 
 .btn-1 {
     display: inline-block;
-    border: 4px solid #ffffff;
+    border: 4px solid #0a68b1;
     background-color: DB241B;
-    color: #ffffff;
+    color: #0a68b1;
     padding: 5px 10px;
     font-weight: lighter;
     text-transform: uppercase;
     border-radius: 15px;
     font-size: clamp(1rem, 9vw, 4rem);
-}
-
-.left-text {
-    color: var(--dark-color);
-    font-weight: 900;
-
-    mix-blend-mode: darken;
 }
 
 img {
