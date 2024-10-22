@@ -231,14 +231,14 @@ body {
     padding: 50px 40px;
     padding-top: 20px0px;
 
-    background: linear-gradient(to left, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
+    background: #0a68b1;
 }
 
 .horario-info h2 {
 
     font-size: 'montserrat';
     font-size: 38px;
-    color: rgba(59, 130, 246, 1);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     line-height: 1.3;
     letter-spacing: 1px;
@@ -265,7 +265,7 @@ body {
     line-height: 1.3;
     letter-spacing: 1px;
     word-spacing: 0.004cap;
-    color: rgba(59, 130, 246, 1);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     padding-top: 15px;
     margin-bottom: 50x;
@@ -277,7 +277,7 @@ body {
     line-height: 1.3;
     letter-spacing: 1px;
     word-spacing: 0.004cap;
-    color: #000;
+    color: #ffffff;
     font-weight: lighter;
 
     margin-bottom: 4px;
@@ -290,7 +290,7 @@ body {
     line-height: 1.3;
     letter-spacing: 1px;
     word-spacing: 0.004cap;
-    color: rgba(59, 130, 246, 1);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     padding-top: 15px;
     margin-bottom: 50x;
@@ -303,38 +303,27 @@ body {
     line-height: 1.3;
     letter-spacing: 1px;
     word-spacing: 0.004cap;
-    color: #000;
+    color: #ffffff;
 
     margin-bottom: 4px;
 }
 
 .mapp {
-    background: linear-gradient(to left, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
-
+    background: #0a68b1;
     text-align: center;
-
-
-
-
 }
 
-.map {
-
-    filter: invert(92%) contrast(93%);
-
-
-}
 
 .footert {
 
 
-    background: linear-gradient(to left, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
+    background: #0a68b1;
 
 }
 
 .footer {
 
-    padding: 50px 40px;
+    padding: 45px 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -344,7 +333,7 @@ body {
     line-height: 1.3;
     letter-spacing: 1px;
     word-spacing: 0.004cap;
-    color: rgba(59, 130, 246, 1);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -352,7 +341,7 @@ body {
 }
 
 .links ul li a {
-    color: #000;
+    color: #ffffff;
     font-weight: lighter;
     font-size: 16px;
     line-height: 1.3;
