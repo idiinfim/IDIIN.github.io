@@ -565,8 +565,18 @@ body {
 
 
 .ofrecemos {
-    height: 320px;
+    background: #0a68b1;
+    align-items: center;
 }
+
+.ofrecemosimg {
+    display: flex;
+    max-width: 2560px;
+    margin: 0 auto;
+    height: auto;
+    align-items: auto;
+}
+
 
 .ofrecemos-img {
     width: 100%;
