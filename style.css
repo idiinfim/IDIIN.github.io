@@ -565,7 +565,8 @@ body {
 
 
 .ofrecemos {
-    background: #0a68b1;
+   
+    background: linear-gradient(to bottom, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
     align-items: center;
 }
 
@@ -624,7 +625,6 @@ body {
 
 .evenimg {
     margin: 0 10px;
-
 }
 
 
@@ -713,7 +713,7 @@ body {
 }
 
 .mappp {
-    background: #0a68b1;
+    background: linear-gradient(to top, rgb(67, 134, 242, 0.4), rgba(255, 255, 255, 0.8));
     align-items: center;
 }
 
@@ -941,7 +941,6 @@ body {
         height: 140px;
         border-radius: 20px;
     }
-
 
 
     .tabs.container {
