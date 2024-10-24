@@ -351,7 +351,7 @@ body {
     display: inline-block;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 880px) {
     .container {
         margin: 0 auto;
     }
@@ -557,7 +557,8 @@ body {
         border-radius: 0px;
 
     }
- .footer {
+
+    .footer {
         padding-top: 30px;
         padding-bottom: 30px;
         flex-direction: column;
