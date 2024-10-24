@@ -50,7 +50,7 @@ header {
     position: fixed;
     top: 0;
     display: flex;
-    font-size: clamp(1rem, 9vw, 18rem);
+    font-size: clamp(1rem, 8vw, 18rem);
     color: var(--text-color);
     font-weight: 700;
     justify-content: space-between;
@@ -106,7 +106,7 @@ header {
     font-weight: lighter;
     text-transform: uppercase;
     border-radius: 15px;
-    font-size: clamp(1rem, 5vw, 10rem);
+    font-size: clamp(1rem, 4vw, 10rem);
 }
 
 img {
