@@ -568,7 +568,7 @@ body {
 
 
     .idiin-logo-3 {
-        display: inline;
+        display: inline-flex;
       
         width: 140px;
         height: 70px;
