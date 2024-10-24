@@ -429,7 +429,7 @@ body {
 }
 
 .info {
-    padding: 70px 40px;
+    padding: 70px 0px;
     display: flex;
     align-items: center;
 
@@ -438,14 +438,15 @@ body {
 
 .info-img {
     width: 50%;
+    display: inline;
+    margin: 0 30px;
+}
+.info-img img{
+    width: 560px;
+    height: 260px;
 }
 
-.info-img img {
-    margin-left: 0px;
-    border-radius: 10px;
-    width: 440px;
-    height: 250px;
-}
+
 
 .info-txt {
     width: 50%;
@@ -982,10 +983,10 @@ body {
         background: #0a68b1;
         border-radius: 20px;
         border: 4px solid #ffffff;
-        width: 100%;
+        width: 44dvb;
         height: 360px;
         padding: 10px 0px;
-
+        margin: 0 auto;
         padding-top: 10px;
         display: flex;
         flex-direction: column;
@@ -1071,6 +1072,7 @@ body {
     .info-img img {
         width: 280px;
         height: 200px;
+        padding-top: 40px;
         margin-bottom: 25px;
         margin-top: 20px;
         border-radius: 20px;
