@@ -50,13 +50,13 @@ header {
     position: fixed;
     top: 0;
     display: flex;
-    font-size: clamp(1rem, 9vw, 12rem);
+    font-size: clamp(1rem, 9vw, 18rem);
     color: var(--text-color);
-    font-weight: 600;
+    font-weight: 700;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    padding: 4vw;
+    padding: 0 4vw;
     mix-blend-mode: darken;
     animation: aparecer-texto both;
     animation-timeline: scroll();
@@ -68,13 +68,13 @@ header {
     font-weight: 900;
     mix-blend-mode: darken;
     text-shadow:
-        4px 4px 0 #000,
+        6px 6px 0 #000,
         /* Sombra en la parte inferior derecha */
-        -4px -4px 0 #000,
+        -6px -6px 0 #000,
         /* Sombra en la parte superior izquierda */
-        -4px 4px 0 #000,
+        -6px 6px 0 #000,
         /* Sombra en la parte inferior izquierda */
-        4px -4px 0 #000;
+        6px -6px 0 #000;
     /* Sombra en la parte superior derecha */
 }
 
@@ -83,13 +83,13 @@ header {
     font-weight: 900;
     mix-blend-mode: darken;
     text-shadow:
-        4px 4px 0 #000,
+        6px 6px 0 #000,
         /* Sombra en la parte inferior derecha */
-        -4px -4px 0 #000,
+        -6px -6px 0 #000,
         /* Sombra en la parte superior izquierda */
-        -4px 4px 0 #000,
+        -6px 6px 0 #000,
         /* Sombra en la parte inferior izquierda */
-        4px -4px 0 #000;
+        6px -6px 0 #000;
     /* Sombra en la parte superior derecha */
 }
 
@@ -106,25 +106,20 @@ header {
     font-weight: lighter;
     text-transform: uppercase;
     border-radius: 15px;
-    font-size: clamp(1rem, 9vw, 4rem);
+    font-size: clamp(1rem, 9vw, 10rem);
 }
 
 img {
-
-    margin: 10vw 0vw;
-
-    margin-top: 12vw;
-    padding: 0 0;
-    width: 15vw;
+    width: 18vw;
     border-radius: 40px;
     position: fixed;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     animation: aparecer both;
     animation-timeline: scroll();
     max-height: 100vh;
     mix-blend-mode: hard-light;
-
-
 }
 
 
@@ -163,7 +158,7 @@ img {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1060px) {
 
 
 
