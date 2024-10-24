@@ -68,13 +68,13 @@ header {
     font-weight: 900;
     mix-blend-mode: darken;
     text-shadow:
-        6px 6px 0 #000,
+        4px 4px 0 #000,
         /* Sombra en la parte inferior derecha */
-        -6px -6px 0 #000,
+        -4px -4px 0 #000,
         /* Sombra en la parte superior izquierda */
-        -6px 6px 0 #000,
+        -4px 4px 0 #000,
         /* Sombra en la parte inferior izquierda */
-        6px -6px 0 #000;
+        4px -4px 0 #000;
     /* Sombra en la parte superior derecha */
 }
 
@@ -83,13 +83,13 @@ header {
     font-weight: 900;
     mix-blend-mode: darken;
     text-shadow:
-        6px 6px 0 #000,
+        4px 4px 0 #000,
         /* Sombra en la parte inferior derecha */
-        -6px -6px 0 #000,
+        -4px -4px 0 #000,
         /* Sombra en la parte superior izquierda */
-        -6px 6px 0 #000,
+        -4px 4px 0 #000,
         /* Sombra en la parte inferior izquierda */
-        6px -6px 0 #000;
+        4px -4px 0 #000;
     /* Sombra en la parte superior derecha */
 }
 
@@ -106,7 +106,7 @@ header {
     font-weight: lighter;
     text-transform: uppercase;
     border-radius: 15px;
-    font-size: clamp(1rem, 9vw, 10rem);
+    font-size: clamp(1rem, 5vw, 10rem);
 }
 
 img {
