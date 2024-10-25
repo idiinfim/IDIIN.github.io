@@ -79,6 +79,7 @@ header {
 .right-text {
     color: var(--dark-color);
     font-weight: 900;
+     margin-right: 4vw;
     mix-blend-mode: darken;
     text-shadow:
         4px 4px 0 #000,
