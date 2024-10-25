@@ -25,7 +25,6 @@ p {
 
 body {
     background-image: url("img1/bluee.gif");
-
     height: 100dvh;
     background-position: center;
     background-size: cover;
@@ -50,14 +49,13 @@ header {
     position: fixed;
     top: 0;
     display: flex;
-    font-size: clamp(1rem, 8vw, 18rem);
+    font-size: clamp(1rem, 8vw, 240rem);
     color: var(--text-color);
     font-weight: 700;
     justify-content: space-between;
     width: 100%;
     align-items: center;
     padding: 0 4vw;
-    mix-blend-mode: darken;
     animation: aparecer-texto both;
     animation-timeline: scroll();
     animation-range-start: cover 20%;
@@ -95,22 +93,25 @@ header {
 
 .botones {
     text-align: center;
+
+   
 }
 
 .btn-1 {
     display: inline-block;
     border: 6px solid #000000;
-    background-color: #0a68b1;
+    background-color: #b10a0a;
     color: #ffffff;
+    margin: 0;
     padding: 10px 20px;
     font-weight: lighter;
     text-transform: uppercase;
     border-radius: 15px;
-    font-size: clamp(1rem, 4vw, 10rem);
+    font-size: clamp(1rem, 4vw,120rem);
 }
 
 img {
-    width: 18vw;
+    width: clamp(1rem, 18vw,240rem);
     border-radius: 40px;
     position: fixed;
     top: 50%;
@@ -195,17 +196,25 @@ img {
         width: 100%;
         align-items: center;
         padding: 4vw;
-        mix-blend-mode: difference;
         animation: aparecer-texto both;
         animation-timeline: scroll();
         animation-range-start: cover 20%;
     }
 
     .left-text {
-        font-size: .4 rem;
+        font-size: 2.4 rem;
         padding-left: 10vw;
         padding-top: 100vw;
         color: rgb(67, 134, 242, 1);
+        text-shadow:
+            3px 3px 0 #000,
+            /* Sombra en la parte inferior derecha */
+            -3px -3px 0 #000,
+            /* Sombra en la parte superior izquierda */
+            -3px 3px 0 #000,
+            /* Sombra en la parte inferior izquierda */
+            3px -3px 0 #000;
+        /* Sombra en la parte superior derecha */
     }
 
     .right-text {
@@ -213,18 +222,30 @@ img {
         padding-right: 3vw;
         padding-top: 100vw;
         color: rgb(67, 134, 242, 1);
+        text-shadow:
+        3px 3px 0 #000,
+        /* Sombra en la parte inferior derecha */
+        -3px -3px 0 #000,
+        /* Sombra en la parte superior izquierda */
+        -3px 3px 0 #000,
+        /* Sombra en la parte inferior izquierda */
+        3px -3px 0 #000;
+    /* Sombra en la parte superior derecha */
     }
 
 
     .btn-1 {
-        display: inline-block;
-        border: 4px solid rgb(67, 134, 242, 1);
-        background-color: transparent;
-        color: rgb(67, 134, 242, 1);
+        margin-right: 2vh;
+        border: 3px solid rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         padding: 5px 10px;
         font-weight: lighter;
         text-transform: uppercase;
         border-radius: 15px;
-        font-size: clamp(1rem, 9vw, 4rem);
+        font-size: clamp(1rem, 7vw, 2rem);
+        color: var(--dark-color);
+        font-weight: 900;
+        mix-blend-mode: darken;
+        
     }
 }
