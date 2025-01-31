@@ -941,6 +941,10 @@ body {
         border-radius: 20px;
     }
 
+.ofrecemos {
+
+   display:none;
+}
 
     .tabs.container {
         padding-top: 50px;
